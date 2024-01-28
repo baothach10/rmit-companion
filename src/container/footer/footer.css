@@ -1,0 +1,26 @@
+.rise__footer{
+    display: flex;
+    height: 60px;
+    overflow-x: hidden;
+}
+
+.rise__footer_content{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: justify;
+
+    color: #FFFFFF;
+    margin: 1.5rem 5rem;
+}
+
+@media (Max-width:1000px) {
+    .rise__footer_content{
+        font-size: 18px;
+        height: 30px;
+        margin:1.5rem 0rem;
+    }
+}

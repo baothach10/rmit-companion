@@ -1,0 +1,75 @@
+.rise__gamestory{
+    display: flex;
+    padding: 5rem 6rem;
+
+}
+
+.rise__gamestory_image img{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x:hidden ;
+    margin-right: 6rem;
+
+}
+
+.rise__gamestory_header{
+   
+    margin: 9rem 0rem;
+}
+
+.rise__gamestory_header h3{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    justify-content: center;
+    color: #FFFFFF;
+    margin: 1rem 0;
+}
+
+.rise__gamestory_header p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+    
+
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+@media (max-width:1000px) {
+    .rise__gamestory_image img{
+        margin-top: 6rem;
+    }
+    .rise__gamestory{
+        display: flex;
+        flex-direction: column;
+    }
+    .rise__gamestory_header p{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .rise__gamestory_image img{
+        width: 400px;
+        margin-top: 0.5rem;  
+        margin-right: 0rem;     
+    }
+    .rise__gamestory_header {
+        margin: 1rem;
+        font-size: 30px;
+    }
+    .rise__gamestory{
+        padding: 0rem 0rem;
+    }
+}

@@ -1,0 +1,80 @@
+
+.rise__rmitbuildings{
+    display: flex;
+    margin: 5rem 6rem;
+    overflow-x:hidden ;
+}
+
+.rise__rmitbuildings-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    /* margin-right: 3rem; */
+}
+
+.rise__rmitbuildings-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-left: 3rem;
+}
+
+.rise__rmitbuildings-content h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+.rise__rmitbuildings_header h1{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+.rise__rmitbuildings-content p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+    /* or 136% */
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.rise__rmitbuildings-content hr {
+    background: #FF5E46 ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border: 5px solid #FF5E46;  
+    width: 20%;
+}
+
+@media (max-width:1000px) {
+    .rise__rmitbuildings{
+        display: flex;
+        flex-direction: column;
+        margin: 3.5rem 1rem;
+    }
+    
+    .rise__rmitbuildings-image img{
+        width: 300px;
+    }
+    .rise__rmitbuildings-content p{
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+    }
+    .rise__rmitbuildings-content h1 {
+        font-size: 30px;
+    }
+    .rise__rmitbuildings-image{
+        margin-left: 0rem;
+    }
+}
+

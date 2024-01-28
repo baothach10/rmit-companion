@@ -1,0 +1,83 @@
+.rise__gameintro{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    overflow-x:hidden ;
+    padding:5rem 6rem;
+}
+
+.rise__gameintro_header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    justify-content: center;
+    color: #FFFFFF;   
+    
+}
+
+.rise__gameintro_header hr{
+    border: 5px solid #FF5E46;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.rise__gameintro_paragraph{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    margin:0 3rem ;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    margin: 3rem 0;
+}
+
+#gamebtn{
+    background: #FF5E46;
+    border-radius: 20px;
+    width: 183px;
+    height: 53px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.rise__gameintro_paragraph p{
+    text-align: justify;
+}
+
+@media (max-width:800px){
+    .rise__gameintro p{
+        margin: 0 1rem;
+        text-align: justify;
+    }
+    .rise__gameintro_header{
+        font-size: 30px;
+}
+    .game_btn{
+        display: none;
+    }
+    .rise__gameintro {
+        padding: 0rem 0rem;
+        margin-top: 2rem;
+    }
+    
+}
+@media (max-width:1000px) {
+    .rise__gameintro_paragraph p{
+        font-size: 18px;
+    }
+}

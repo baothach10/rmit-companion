@@ -1,0 +1,86 @@
+.building89 img{
+    right: 60px;
+}
+.building2nd{
+    bottom: 110px;
+}
+.building__bottom{
+    margin-bottom: 2rem;
+}
+#B9_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:0;
+    margin-right: 5rem;
+    width: 160px;
+    height: 60px;
+    color: #FF5E46;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#B9_btn span{
+    
+    margin-left: 1rem;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#B9_btn:hover span{
+    width: 30px;
+}
+
+#B8_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:0;
+    margin-left: 5rem;
+    width: 160px;
+    height: 60px;
+    color: #FF5E46;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#B8_btn span{
+    
+    margin-right: 1rem;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#B8_btn:hover span{
+    width: 30px;
+}
+
+@media (max-width:500px) {
+    .building89 img{
+        right: 60px;
+    }
+    .rise_display_building_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .building2nd{
+        bottom: 0px;
+        text-align: center;
+    }
+    .building89 img{
+        right: 10px;
+        top:20px
+    }
+    .modal_build_10 img{
+        top: 50px;
+    }
+}
